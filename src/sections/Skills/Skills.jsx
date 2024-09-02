@@ -19,6 +19,7 @@ function Skills() {
             <SkillList src={checkMark} skill='Javascript'/>
             <SkillList src={checkMark} skill='Python'/>
             <SkillList src={checkMark} skill='SQL'/>
+            <SkillList src={checkMark} skill='Dart'/>
         </div>
         <hr />
         <div className={style.skillList}>
@@ -27,6 +28,14 @@ function Skills() {
             <SkillList src={checkMark} skill='Next'/>
             <SkillList src={checkMark} skill='Flask'/>
             <SkillList src={checkMark} skill='Bootstrap'/>
+            <SkillList src={checkMark} skill='Flutter'/>
+        </div>
+        <hr />
+        <div className={style.skillList}>
+            <SkillList src={checkMark} skill='PostgreSQL'/>
+            <SkillList src={checkMark} skill='MySQL'/>
+            <SkillList src={checkMark} skill='Firebase'/>
+            <SkillList src={checkMark} skill='MongoDB'/>
         </div>
         <hr />
     </section>
